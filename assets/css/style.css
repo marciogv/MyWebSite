@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Setores Gerais */
+
+.all-context {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+
+.main-context {
+    position: relative;
+    max-width: 120rem;
+    height: 100rem;
+    margin: 0 auto;
+    padding: 10rem 0;
+    z-index: 5;
+}
+
+.menu-context{
+    background: white;
+    width: 80rem;
+    height: 11rem;
+    top: 0;
+    left: 15%;
+    z-index: 10;
+    position: absolute;
+    margin: 10rem auto;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.second-context {
+    max-width: 120rem;
+    height: 100rem;
+    margin: 10rem auto;
+    padding: 10rem 0;
+    background: red;   
+}
+/* Menu */
+
+.menu-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0.3rem;
+    border-radius: 10rem;
+}
+
+.logo h1 {
+    display: block;
+    font-family: 'Rampart One', cursive;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.caixa-logo {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+    border-radius: 0 0 1rem 1rem;
+    padding: 0.5rem;
+}
+
+.eyes {
+    width: 9rem;
+    height: 4rem;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+}
+
+.linkedin {
+    height: 4rem;
+    width: 4.5rem;
+}
+
+ .whatsapp {
+    height: 8rem;
+    width: 8rem;
+}
+
+.menu-context .menu-content nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+    box-sizing: content-box;
+}
+
+.menu-context .menu-content nav ul li a{
+    display: block;
+    box-sizing: content-box;
+    position: relative;
+    height: 100%;
+    margin: 1.58rem;
+}
+
+.links {
+    font-family: 'Indie Flower', cursive;
+    display: block;
+    font-weight: bold;
+    font-size: 4rem;
+    text-decoration: none;
+    transition: all 1s ease;
+    color: black;
+}
+
+/* Main */
+
+.imagem-terra{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+/* Texto */
+
+.text p{
+    display: block;
+    font-size: 3rem;
+    padding: 4rem;
+    background: white;
+    border: 0.1rem solid rgb(167, 167, 4);
+    width: 30rem;
+    height: 45rem;
+
+}
+
+
+.left-text {
+    position: absolute;
+    top: 30%;
+    left: -5rem;
+}
+
+.right-text {
+    position: absolute;
+    top: 30%;
+    right: -5rem;
+}
+
+/* Transition Box */
+
+.transition-box {
+    position: absolute;
+    width: 80rem;
+    height: 40rem;
+    background: white;
+    bottom: -20rem;
+    left: 15%;
+}
+
